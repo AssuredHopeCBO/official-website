@@ -81,7 +81,7 @@ const Footer = ({ setIsTeamTab, setIsSupportTab }) => {
             <div className="space-y-2 text-sm font-bold text-gray-700">
               <p>📍 Nairobi, Kenya</p>
               <p>📞 0722981224</p>
-              <p className="break-all text-[11px]">📩assuredhopeanddestinyoutreach@gmail.com</p>
+              <p className="break-all text-[11px]">📩 assuredhopeanddestinyoutreach@gmail.com</p>
             </div>
           </div>
 
