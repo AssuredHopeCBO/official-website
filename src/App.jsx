@@ -86,13 +86,14 @@ const App = () => {
       </div>
     );
   }
-
+  
   // 5. Default Home View
   return (
     <div className="min-h-screen bg-white font-sans text-left">
       <Header setIsTeamTab={setIsTeamTab} setIsSupportTab={setIsSupportTab} />
       <main>
-        <section className="bg-[#2e7d32] min-h-[70vh] flex items-center px-6 md:px-16 py-20">
+        {/* Changed min-h to md:min-h-[70vh] and py-20 to py-12 md:py-20 */}
+        <section className="bg-[#2e7d32] md:min-h-[70vh] flex items-center px-6 md:px-16 py-12 md:py-20">
           <div className="max-w-4xl text-white">
             <h1 className="text-4xl md:text-7xl font-extrabold leading-tight mb-6">
               <span className="text-[#fff9c4]">Mentoring and Empowering the Vulnerable In The Society.</span>
