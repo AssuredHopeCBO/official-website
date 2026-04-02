@@ -7,7 +7,7 @@ const RefundPolicy = () => (
         <p>As a non-profit foundation, donations are generally non-refundable. They are immediately allocated to community projects.</p>
         
         <h3 className="text-lg font-bold text-gray-800">2. Error Corrections</h3>
-        <p>If a technical error or accidental duplicate payment occurs, please contact <b>info@assuredhope.org</b> within 7 days for a review.</p>
+        <p>If a technical error or accidental duplicate payment occurs, please contact <b>assuredhopeanddestinyoutreach@gmail.com</b> within 7 days for a review.</p>
     </LegalPage>
 );
 
